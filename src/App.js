@@ -13,7 +13,8 @@ class App extends Component {
     ],
   };
 
-  //  Constructor is called once- And here is the right place to initialize the Props here in this class
+  // This constructor is called only once the instance of the Class is created
+  // And here is the right place to initialize the Props here in this class
   constructor(props) {
     super(props);
     console.log(`App - Constructor`);
